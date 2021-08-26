@@ -1,0 +1,13 @@
+Advantages of Heap Sort
+Efficiency, Optimized performance, and accuracy are some of the best features of this algorithm. The algorithm is also very compatible with very low memory usage. No additional memory space is required for operation, unlike in recursive Quick Sort or Merge sort.
+Disadvantages of Heap Sort
+It is an unstable sort as it rearranging the relative order. It also has expensive constant factors so it is slower than Quicksort. If you have huge datasets and don’t fit into memory Merge sort will rescue you but heap sort won’t be of any use there.
+Applications of Heap Sort
+1. it can be used in embedded systems like Linux where less space is available (where merge sort and quick sort won’t fit). It is used by many Operating Systems for process management.
+2. It can be very useful to sort an array that is nearly sorted.
+3. It is also used in other algorithms like Dijkstra’s algorithm that finds the shortest path. To get the longest and shortest values instantly, Heap Sort Data Structure is used.
+Other usages include dealing with priority queues in Prim’s algorithm (also called the minimum spanning tree), finding the order in statistics, and Huffman encoding (or data compression).
+Conclusion
+It is found that the time complexity is calculated as nlog(n), but the actual Heap Sort is lesser than O(nlog(n)). The reason is that extraction or reduction from the Heap Sort reduces the size and takes much less time as the process is still going on.
+Hence, Heap Sorting is considered one of the” best” sorting algorithms because of various reasons in the world of Data Structure and Algorithms.
+
